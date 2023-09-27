@@ -51,6 +51,8 @@ D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\roslyn\vbc.rsp
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe.config
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\Antlr3.Runtime.dll
+D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\EntityFramework.dll
+D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\EntityFramework.SqlServer.dll
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\Microsoft.Web.Infrastructure.dll
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\Newtonsoft.Json.dll
@@ -62,6 +64,8 @@ D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\System.Web.WebPages.Deployment.d
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\System.Web.WebPages.dll
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\System.Web.WebPages.Razor.dll
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\WebGrease.dll
+D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\EntityFramework.xml
+D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\EntityFramework.SqlServer.xml
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\System.Web.Helpers.xml
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\System.Web.Mvc.xml
 D:\LeHoangNgocLan_2120110014\WebsiteBanHang\bin\System.Web.Optimization.xml

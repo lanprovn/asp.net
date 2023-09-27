@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebsiteBanHang.Context;
 
 namespace WebsiteBanHang.Controllers
 {
     public class HomeController : Controller
     {
+        WebsiteBHEntities3 obj = new WebsiteBHEntities3();
         public ActionResult Index()
         {
-            return View();
+            var lstProduct = obj.tb_Product.ToList();
+            return View(lstProduct);
         }
 
         public ActionResult About()
