@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebsiteBanHang.Context;
+using WebsiteBanHang.Models;
 
 namespace WebsiteBanHang.Controllers
 {
@@ -12,8 +13,10 @@ namespace WebsiteBanHang.Controllers
         WebsiteBHEntities3 obj = new WebsiteBHEntities3();
         public ActionResult Index()
         {
-            var lstProduct = obj.tb_Product.ToList();
-            return View(lstProduct);
+            HomeModel home = new HomeModel();
+            home.ListProduct = obj.tb_Product.ToList();
+            home.ListCategory = obj.tb_Category.ToList();
+            return View(home);
         }
 
         public ActionResult About()

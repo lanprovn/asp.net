@@ -172,6 +172,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\HomeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2100,13 +2101,16 @@
     <Content Include="Content\images\course_4.jpg" />
     <Content Include="Content\images\course_5.jpg" />
     <Content Include="Content\images\course_6.jpg" />
+    <Content Include="Content\images\dienthoai.jpg" />
     <Content Include="Content\images\hero_1.jpg" />
-    <Content Include="Content\images\logo.jpg" />
     <Content Include="Content\images\logo.png" />
-    <Content Include="Content\images\person_1.jpg" />
-    <Content Include="Content\images\person_2.jpg" />
-    <Content Include="Content\images\person_3.jpg" />
-    <Content Include="Content\images\person_4.jpg" />
+    <Content Include="Content\images\khachhang_1.jpg" />
+    <Content Include="Content\images\khachhang_2.jpg" />
+    <Content Include="Content\images\khachhang_3.jpg" />
+    <Content Include="Content\images\khachhang_4.jpg" />
+    <Content Include="Content\images\khachhang_5.jpg" />
+    <Content Include="Content\images\khachhang_6.jpg" />
+    <Content Include="Content\images\logowebsite.jpg" />
     <Content Include="Context\dbModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>dbModel.edmx</DependentUpon>
@@ -2368,7 +2372,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\HomeModel\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
