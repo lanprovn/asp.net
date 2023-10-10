@@ -11,6 +11,7 @@ namespace WebsiteBanHang.Controllers
     public class HomeController : Controller
     {
         WebsiteBHEntities3 obj = new WebsiteBHEntities3();
+
         public ActionResult Index()
         {
             HomeModel home = new HomeModel();

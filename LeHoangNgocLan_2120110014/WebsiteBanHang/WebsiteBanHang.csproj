@@ -2091,26 +2091,44 @@
     <Content Include="Content\css\owl.carousel.min.css" />
     <Content Include="Content\css\owl.theme.default.min.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\images\banner_1.jpg" />
     <Content Include="Content\images\bg_1.jpg" />
-    <Content Include="Content\images\blog_1.jpg" />
     <Content Include="Content\images\blog_2.jpg" />
-    <Content Include="Content\images\blog_large_1.jpg" />
     <Content Include="Content\images\course_1.jpg" />
     <Content Include="Content\images\course_2.jpg" />
     <Content Include="Content\images\course_3.jpg" />
     <Content Include="Content\images\course_4.jpg" />
     <Content Include="Content\images\course_5.jpg" />
     <Content Include="Content\images\course_6.jpg" />
-    <Content Include="Content\images\dienthoai.jpg" />
-    <Content Include="Content\images\hero_1.jpg" />
-    <Content Include="Content\images\logo.png" />
-    <Content Include="Content\images\khachhang_1.jpg" />
-    <Content Include="Content\images\khachhang_2.jpg" />
-    <Content Include="Content\images\khachhang_3.jpg" />
-    <Content Include="Content\images\khachhang_4.jpg" />
-    <Content Include="Content\images\khachhang_5.jpg" />
-    <Content Include="Content\images\khachhang_6.jpg" />
+    <Content Include="Content\images\deal_1.jpg" />
+    <Content Include="Content\images\deal_2.jpg" />
+    <Content Include="Content\images\deal_3.jpg" />
+    <Content Include="Content\images\deal_4.jpg" />
+    <Content Include="Content\images\deal_5.jpg" />
+    <Content Include="Content\images\deal_6.jpg" />
+    <Content Include="Content\images\dien_thoai_1.jpg" />
+    <Content Include="Content\images\dien_thoai_2.jpg" />
+    <Content Include="Content\images\dien_thoai_3.jpg" />
+    <Content Include="Content\images\dien_thoai_4.jpg" />
+    <Content Include="Content\images\dien_thoai_5.jpg" />
+    <Content Include="Content\images\dien_thoai_6.jpg" />
+    <Content Include="Content\images\iphone13.jpg" />
     <Content Include="Content\images\logowebsite.jpg" />
+    <Content Include="Content\images\pavilion.jpg" />
+    <Content Include="Content\images\person_1.jpg" />
+    <Content Include="Content\images\person_2.jpg" />
+    <Content Include="Content\images\person_3.jpg" />
+    <Content Include="Content\images\person_4.jpg" />
+    <Content Include="Content\images\rog-phone.jpg" />
+    <Content Include="Content\images\s21.jpg" />
+    <Content Include="Content\images\thinkpad.jpg" />
+    <Content Include="Content\images\tin_cong_nghe_1.jpg" />
+    <Content Include="Content\images\tin_cong_nghe_2.jpg" />
+    <Content Include="Content\images\tin_cong_nghe_3.jpg" />
+    <Content Include="Content\images\tin_cong_nghe_4.jpg" />
+    <Content Include="Content\images\video_danh_gia_1.jpg" />
+    <Content Include="Content\images\video_danh_gia_2.jpg" />
+    <Content Include="Content\images\xps.jpg" />
     <Content Include="Context\dbModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>dbModel.edmx</DependentUpon>
@@ -2122,7 +2140,18 @@
       <LastGenOutput>dbModel.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
+    <Content Include="fonts\flaticon\backup.txt" />
+    <Content Include="fonts\flaticon\font\flaticon.css" />
+    <Content Include="fonts\flaticon\font\flaticon.html" />
+    <Content Include="fonts\flaticon\font\Flaticon.svg" />
+    <Content Include="fonts\flaticon\font\_flaticon.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\icomoon\demo-files\demo.css" />
+    <Content Include="fonts\icomoon\demo-files\demo.js" />
+    <Content Include="fonts\icomoon\demo.html" />
+    <Content Include="fonts\icomoon\fonts\icomoon.svg" />
+    <Content Include="fonts\icomoon\Read Me.txt" />
+    <Content Include="fonts\icomoon\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -2317,6 +2346,17 @@
     <Content Include="Context\dbModel.edmx.diagram">
       <DependentUpon>dbModel.edmx</DependentUpon>
     </Content>
+    <Content Include="fonts\.DS_Store" />
+    <Content Include="fonts\flaticon\font\Flaticon.eot" />
+    <Content Include="fonts\flaticon\font\Flaticon.ttf" />
+    <Content Include="fonts\flaticon\font\Flaticon.woff" />
+    <Content Include="fonts\flaticon\font\Flaticon.woff2" />
+    <Content Include="fonts\flaticon\font\_flaticon.scss" />
+    <Content Include="fonts\flaticon\license\license.pdf" />
+    <Content Include="fonts\icomoon\fonts\icomoon.eot" />
+    <Content Include="fonts\icomoon\fonts\icomoon.ttf" />
+    <Content Include="fonts\icomoon\fonts\icomoon.woff" />
+    <Content Include="fonts\icomoon\selection.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2372,7 +2412,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\HomeModel\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

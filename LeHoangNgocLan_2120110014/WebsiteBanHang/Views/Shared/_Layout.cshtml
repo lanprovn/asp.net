@@ -20,14 +20,14 @@
 
     <link rel="stylesheet" href="~/Content/css/bootstrap-datepicker.css">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="~/fonts/flaticon/font/flaticon.css ">
 
     <link rel="stylesheet" href="~/Content/css/aos.css">
     <link href="~/Content/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="~/Content/css/style.css">
 
-
+   
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -48,9 +48,9 @@
                     </div>
 
                     <div class="col-lg-3 text-right">
-                        <a class="small mr-3" href="@Url.Action("Index","Login")"><span class="icon-unlock-alt"></span> Log In</a>
+                        <a class="small mr-3" href="@Url.Action("Index","Login")"><span class="icon-unlock-alt"></span>Đăng nhập</a>
 
-                        <a class="small btn btn-primary px-4 py-2 rounded-0" href="@Url.Action("Index","Register")"><span class="icon-users"></span> Register</a>
+                        <a class="small btn btn-primary px-4 py-2 rounded-0" href="@Url.Action("Index","Register")"><span class="icon-users"></span> Đăng ký</a>
                     </div>
                 </div>
             </div>
@@ -65,31 +65,32 @@
                 <div class="d-flex align-items-center">
                     <div class="site-logo">
                         <a href="#" class="d-block">
-                            <img src="~/Content/images/logo.jpg" alt="Image" class="img-fluid">
+                            <img src="~/Content/images/logowebsite.jpg" alt="Image" class="img-fluid">
                         </a>
                     </div>
                     <div class="mr-auto">
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                                 <li class="active">
-                                    <a class="nav-link text-left" href="@Url.Action("Index","Home")">Home</a>
+                                    <a class="nav-link text-left" href="@Url.Action("Index","Home")">Trang chủ</a>
                                 </li>
                                 @*<li class="has-children">*@
                                 <li>
-                                    <a class="nav-link text-left" href="@Url.Action("Index","About")">About Us</a>
+                                    <a class="nav-link text-left" href="@Url.Action("Index","About")">Giới thiệu</a>
                                     @*<ul class="dropdown">
                                         <li><a href="teachers.html">Our Teachers</a></li>
                                         <li><a href="about.html">Our School</a></li>
                                     </ul>*@
                                 </li>
+
                                 <li>
-                                    <a class="nav-link text-left" href="@Url.Action("Index","Admissions")">Admissions</a>
+                                    <a class="nav-link text-left" href="@Url.Action("Index","Courses")">Sản phẩm</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link text-left" href="@Url.Action("Index","Courses")">Courses</a>
+                                    <a class="nav-link text-left" href="@Url.Action("Index","Admissions")">Dịch vụ và hỗ trợ</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link text-left" href="@Url.Action("Index","Contact")">Contact</a>
+                                    <a class="nav-link text-left" href="@Url.Action("Index","Contact")">Liên hệ</a>
                                 </li>
                             </ul>
                         </nav>
@@ -97,9 +98,9 @@
                     </div>
                     <div class="ml-auto">
                         <div class="social-wrap">
-                            <a href="#"><span class="icon-facebook"></span></a>
-                            <a href="#"><span class="icon-twitter"></span></a>
-                            <a href="#"><span class="icon-linkedin"></span></a>
+                            <a href="https://www.facebook.com/lankon1912"><span class="icon-facebook"></span></a>
+                            <a href="https://www.instagram.com/ng.lan1912/"><span class="icon-instagram"></span></a>
+                            <a href="https://github.com/lanprovn"><span class="icon-github"></span></a>
 
                             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black">
                                 <span class="icon-menu h3"></span>
@@ -120,58 +121,95 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
-                        <p class="mb-4"><img src="~/Content/images/logo.png" alt="Image" class="img-fluid"></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h3 class="footer-heading"><span>Tổng đài hỗ trợ miễn phí</span></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Gọi mua hàng 1800.2097 (7h30 - 22h00)</a></li>
+                            <li><a href="#">Gọi khiếu nại 1800.2063 (8h00 - 21h30)</a></li>
+                            <li><a href="#">Gọi bảo hành 1800.2064 (8h00 - 21h00)</a></li>
+                            <p class="mb-3 title">Phương thức thanh toán</p>
+                            <li class="link icon-cps rounded " style="margin-bottom:10px">
+                                <a href="https://cellphones.com.vn/huong-dan-mua-hang-online">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/alepay-logo.png" alt="Alepay">
+                                </a>
+                                <a href="https://cellphones.com.vn/sforum/huong-dan-toan-bang-zalopay-khi-mua-hang-tren-website-cellphones">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/zalopay-logo.png" alt="Zalopay" loading="lazy">
+                                </a>
+                                <a href="https://cellphones.com.vn/sforum/huong-dan-su-dung-vnpay-qrcode-tren-website-cellphones">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/vnpay-logo.png" alt="Vnpay" loading="lazy">
+                                </a>
+                                <a href="https://cellphones.com.vn/uu-dai-doi-tac/moca">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/moca-logo.png" alt="Moca" loading="lazy">
+                                </a>
+                            </li>
+
+                            <li class="link icon-cps rounded">
+                                <a href="https://cellphones.com.vn/huong-dan-mua-hang-va-thanh-toan-qua-cong-onepay">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/onepay-logo.png" alt="Onepay" loading="lazy">
+                                </a>
+                                <a href="https://cellphones.com.vn/sforum/apple-pay-viet-nam">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/wysiwyg/apple-pay-og.png" alt="Apple Pay" loading="lazy">
+                                </a>
+                                <a href="https://cellphones.com.vn/uu-dai-doi-tac/kredivo">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/kredivo-logo.png" alt="Kredivo" loading="lazy">
+                                </a>
+                                <a href="https://cellphones.com.vn/huong-dan-mua-hang-online">
+                                    <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/mpos-logo.png" alt="Mpos" loading="lazy">
+                                </a>
+                            </li>
+                        </ul>
+
                     </div>
                     <div class="col-lg-3">
-                        <h3 class="footer-heading"><span>Our Campus</span></h3>
+                        <h3 class="footer-heading"><span>Thông tin và chính sách</span></h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Acedemic</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Our Interns</a></li>
-                            <li><a href="#">Our Leadership</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Human Resources</a></li>
+                            <li><a href="#">Mua hàng và thanh toán Online</a></li>
+                            <li><a href="#">Mua hàng trả góp Online</a></li>
+                            <li><a href="#">Chính sách giao hàng</a></li>
+                            <li><a href="#">Tra điểm Smember</a></li>
+                            <li><a href="#">Xem ưu đãi Smember</a></li>
+                            <li><a href="#">Tra thông tin bảo hành</a></li>
+                            <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
+                            <li><a href="#">Thông tin hoá đơn mua hàng</a></li>
+                            <li><a href="#">Trung tâm bảo hành chính hãng</a></li>
+                            <li><a href="#">Quy định về việc sao lưu dữ liệu</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h3 class="footer-heading"><span>Our Courses</span></h3>
+                        <h3 class="footer-heading"><span>Dịch vụ và thông tin khác</span></h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Math</a></li>
-                            <li><a href="#">Science &amp; Engineering</a></li>
-                            <li><a href="#">Arts &amp; Humanities</a></li>
-                            <li><a href="#">Economics &amp; Finance</a></li>
-                            <li><a href="#">Business Administration</a></li>
-                            <li><a href="#">Computer Science</a></li>
+                            <li><a href="#">Khách hàng doanh nghiệp (B2B)</a></li>
+                            <li><a href="#">Ưu đãi thanh toán</a></li>
+                            <li><a href="#">Quy chế hoạt động</a></li>
+                            <li><a href="#">Chính sách Bảo hành</a></li>
+                            <li><a href="#">Liên hệ hợp tác kinh doanh</a></li>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Dịch vụ bảo hành điện thoại</a></li>
+                            <li><a href="#">Dịch vụ bảo hành mở rộng</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h3 class="footer-heading"><span>Contact</span></h3>
+                        <h3 class="footer-heading"><span>Kết nối với chúng tôi</span></h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#">Support Community</a></li>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#">Share Your Story</a></li>
-                            <li><a href="#">Our Supporters</a></li>
+                            <li> <a href="https://www.facebook.com/lankon1912"><span class="icon-facebook-square"></span></a>FACEBOOK</li>
+                            <li><a href="https://www.instagram.com/ng.lan1912/"><span class="icon-instagram"></span></a>INSTAGRAM</li>
+                            <li> <a href="https://github.com/lanprovn"><span class="icon-github-square"></span></a>GITHUB</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-12">
-                        <div class="copyright">
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                    </div>
+
+                    <p class="pr-2 text-10 text-black">Công Ty TNHH Công Nghệ Một Mình Tao - Cao đẳng Công Thương TP. Hồ Chí Minh. Mã số doanh nghiệp: 0932683148, nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh MST:0312193244. Chủ sở hữu: Lê Hoàng Ngọc Lân- Điện thoại: 0932683148 (miễn phí) - Email: lelanhoang1912@gmail.com - Bản quyền thuộc về TAO.</p>
                 </div>
+
+
+
+           
+
+
+
             </div>
-        </div>
+            </div>
     </div>
 
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#51be78" /></svg></div>
